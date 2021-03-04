@@ -11,25 +11,18 @@ This is an application that allows a user to create a pitch depending on a certa
 
 ## Installation Requirements
 Clone this repository and navigate to the folder. Run the following commands to allow functionality of the app:-
-
-sudo add-apt-repository ppa:jonathonf/python-3.6
-
-sudo apt-get update
-
-sudo apt-get install python3.6
+sudo apt-get install python3.8
 
 sudo apt-get install python3-pip
 
-sudo apt-get install python3.6-venv
+sudo apt-get install python3.8-venv
 
-python3.6 -m venv virtual
+python3.8  -m venv virtual
 
 source virtual/bin/activate
 
 pip install -r requirements.txt
 run python3 manage.py server
-
-## Github link https://pitchx.herokuapp.com
 
 ## User Stories
 A user can see the pitches posted by other people
@@ -42,7 +35,7 @@ A user can view and submit pitches by category.
 
 ## Technologies Used
 
-Python 3.6.5
+Python 3.8.1
 
 HTML5, CSS and Bootstrap
 
